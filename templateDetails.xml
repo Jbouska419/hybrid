@@ -9,13 +9,11 @@
 	<copyright>Copyright (C) 2014 MNDYRS. All rights reserved.</copyright>
 	<description>Template using Bower to install the proper components</description>
 	<files>
-		<filename>favicon.ico</filename>
 		<filename>index.php</filename>
 		<filename>templateDetails.xml</filename>
 		<folder>css</folder>
 		<folder>html</folder>
 		<folder>less</folder>
-		<folder>fonts</folder>
 	</files>
 	<positions>
 		<position>debug</position>
