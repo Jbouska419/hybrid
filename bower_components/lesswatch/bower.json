@@ -1,6 +1,6 @@
 {
   "name": "lesswatch",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "homepage": "https://github.com/antfuentes87/lesswatch",
   "authors": [
     "James Bouska <jbouska419@gmail.com>"
@@ -12,6 +12,5 @@
     "less",
     "css"
   ],
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }
