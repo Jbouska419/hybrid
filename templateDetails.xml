@@ -10,10 +10,13 @@
 	<description>A hybrid template using Bower </description>
 	<files>
 		<filename>index.php</filename>
+		<filename>README.md</filename>
 		<filename>templateDetails.xml</filename>
+		<folder>bower_components</folder>
 		<folder>css</folder>
 		<folder>html</folder>
 		<folder>less</folder>
+		<folder>php</folder>
 	</files>
 	<positions>
 		<position>debug</position>
