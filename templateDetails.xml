@@ -4,10 +4,10 @@
 	<name>Hybrid</name>
 	<version>1.0</version>
 	<creationDate>8/5/2014</creationDate>
-	<author>Anthony Fuentes & James Bouska</author>
-	<authorEmail>antfuentes87@gmail</authorEmail>
+	<author>Anthony Fuentes and James Bouska</author>
+	<authorEmail>antfuentes87@gmail.com</authorEmail>
 	<copyright>Copyright (C) 2014 MNDYRS. All rights reserved.</copyright>
-	<description>Template using Bower to install the proper components</description>
+	<description>A hybrid template using Bower </description>
 	<files>
 		<filename>index.php</filename>
 		<filename>templateDetails.xml</filename>
