@@ -21,7 +21,8 @@ $js = new H_javascript();
                 	<jdoc:include type="modules" name="menu" />
                 	<jdoc:include type="message" />
 					<jdoc:include type="component" />
-                    <?php $js->load('jquery'); ?>
-                    <?php $js->load('bootstrap'); ?>
+                    <!-- Example Usage of Hybrid Javascript Class // Just uncomment to load that library -- complete list of shorthand is in php/H_javascript.php -->
+                    <?php //$js->load('jquery'); ?>
+                    <?php //$js->load('bootstrap'); ?>
 		</body>
 </html>
