@@ -1,5 +1,11 @@
-/*These variables are here for you to use if you setup the LESS in html/com_content*/
-@com_content: '../html/com_content/load.less';
+/*These variables are here for you to use if you setup the LESS in html/whatever component or module you wanna override*/
+@html: '../html/';
+
+/*Components*/
+@com_content: '@{html}com_content/load.less';
+
+/*Modules*/
+@mod_menu: '@{html}/mod_menu/load.less';
 
 /*bower_components*/
 @bower: '../bower_components/';
