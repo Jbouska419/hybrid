@@ -7,7 +7,7 @@
 	<author>Anthony Fuentes and James Bouska</author>
 	<authorEmail>antfuentes87@gmail.com</authorEmail>
 	<copyright>Copyright (C) 2014 MNDYRS. All rights reserved.</copyright>
-	<description>A hybrid template using Bower </description>
+	<description>A hybrid template using Bower and Git</description>
 	<files>
 		<filename>index.php</filename>
 		<filename>README.md</filename>
