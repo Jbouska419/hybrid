@@ -1,7 +1,7 @@
 <?php 
 defined('_JEXEC') or die; 
 require_once ('php/load.php');
-$js = new H_javascript();
+//$js = new H_javascript();
 ?>
 <!DOCTYPE html>
 	<html lang="en">
@@ -13,8 +13,8 @@ $js = new H_javascript();
 			<!-- Load Single CSS File -->
 			<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/load.css">
 			<!--[if lt IE 9]>
-				<script src="<?php $js->load('html5shiv'); ?>"></script>
-				<script src="<?php $js->load('respond'); ?>"></script>
+				<script src="<?php //$js->load('html5shiv'); ?>"></script>
+				<script src="<?php //$js->load('respond'); ?>"></script>
 			<![endif]-->
 		</head>
 		<body>
