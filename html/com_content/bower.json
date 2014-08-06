@@ -7,6 +7,10 @@
   ],
   "description": "Joomla 3.x Override with bower support -- must be in the HTML directory when you bower install\"",
   "main": "load.less",
+   "ignore": [
+    "bower.json",
+    ""
+  ],
   "keywords": [
     "less",
     "javascript",
