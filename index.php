@@ -1,5 +1,9 @@
 <?php 
 defined('_JEXEC') or die; 
+spl_autoload_register(function ($class) {
+    require_once ('php/' . $class . '.php');
+});
+$js = new hybird_JS();
 ?>
 <!DOCTYPE html>
 	<html lang="en">
@@ -20,5 +24,7 @@ defined('_JEXEC') or die;
                 	<jdoc:include type="modules" name="menu" />
                 	<jdoc:include type="message" />
 					<jdoc:include type="component" />
+                    <?php $js->load('jquery'); ?>
+                    <?php $js->load('bootstrap'); ?>
 		</body>
 </html>
