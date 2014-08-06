@@ -12,10 +12,9 @@ $js = new H_javascript();
 			<jdoc:include type="head" />
 			<!-- Load Single CSS File -->
 			<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/load.css">
-			<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
-				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+				<script src="<?php $js->load('html5shiv'); ?>"></script>
+				<script src="<?php $js->load('respond'); ?>"></script>
 			<![endif]-->
 		</head>
 		<body>
