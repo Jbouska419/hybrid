@@ -18,7 +18,7 @@ require_once ('php/load.php');
 			<![endif]-->
 		</head>
 		<body>
-                	<!-- <jdoc:include type="modules" name="moduleName" /> -->
+                	<jdoc:include type="modules" name="menu" />
                 	<jdoc:include type="message" />
 					<jdoc:include type="component" />
                     <!-- Example Usage of Hybrid Javascript Class // Just uncomment to load that library -- complete list of shorthand is in php/H_javascript.php -->
