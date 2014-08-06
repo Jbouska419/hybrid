@@ -1,9 +1,7 @@
 <?php 
 defined('_JEXEC') or die; 
-spl_autoload_register(function ($class) {
-    require_once ('php/' . $class . '.php');
-});
-$js = new hybird_JS();
+require_once ('php/load.php');
+$js = new H_javascript();
 ?>
 <!DOCTYPE html>
 	<html lang="en">
