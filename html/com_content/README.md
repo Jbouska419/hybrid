@@ -1,4 +1,3 @@
-com_content
-===========
+Joomla 3.x template override for content compontent (Stock compontent for Joomla)
 
-Joomla 3.x com_content overrides, with bower support.
+This is meant to be cloned into Hybrid (Joomla 3.x Template) @ https://github.com/Jbouska419/hybrid (After cloning, we remove the submodule from Hybrid). This override has already be pre-installed into Hybrid.
