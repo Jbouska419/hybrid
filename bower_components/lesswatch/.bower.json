@@ -12,14 +12,13 @@
     "css"
   ],
   "license": "MIT",
-  "_release": "e1e76f3166",
+  "_release": "f2d7e17fae",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "e1e76f3166c12f738e05c0eb1f5dad1c2b4eac53"
+    "commit": "f2d7e17fae0ec515b14f513ee9306e472342375f"
   },
   "_source": "git@github.com:antfuentes87/lesswatch.git",
   "_target": "*",
-  "_originalSource": "git@github.com:antfuentes87/lesswatch.git",
-  "_direct": true
+  "_originalSource": "git@github.com:antfuentes87/lesswatch.git"
 }

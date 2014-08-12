@@ -7,9 +7,9 @@ var sys = require('util')
 
 // Check to see if we have the correct number of arguments
 var argvs = process.argv.slice(2);
-if (!argvs[0] || !argvs[1]){
+if (!argvs[0] || !argvs[1] || !argvs[2] || !argvs[3]){
   console.log('Missing arguments. Example:');
-    console.log('\tnode less-watch-compiler.js FOLDER_TO_WATCH FOLDER_TO_OUTPUT');
+    console.log('\tnode less-watch-compiler.js FOLDER_TO_WATCH FOLDER_TO_OUTPUT FILE_TO_INPUT FILE_TO_OUTPUT');
   process.exit(1);
 }
 
@@ -130,7 +130,7 @@ function getFileExtension(string){
 // Here's where we run the less compiler
 function compileCSS(file){
     var filename = getFilenameWithoutExtention(file);
-    var command = 'lessc -x ' + argvs[0] + 'load.less ' + argvs[1] + 'load.css';
+    var command = 'lessc -x ' + argvs[0] + '/' + argvs[2] + ' ' + argvs[1] + '/' + argvs[3];
 	
     // Run the command
     exec(command, function (error, stdout, stderr){

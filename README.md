@@ -1,1 +1,1 @@
-Joomla 3.x template that works with any compontent. Has bower support. More documentation coming soon.
+Joomla 3.x template that works with any compontent. Has bower support and uses git clone for all component overrides.
