@@ -15,7 +15,7 @@
 		<folder>bower_components</folder>
 		<folder>css</folder>
 		<folder>html</folder>
-		<folder>less</folder>
+		<folder>_less</folder>
 		<folder>php</folder>
 	</files>
 	<positions>
