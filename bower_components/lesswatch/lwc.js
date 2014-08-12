@@ -145,8 +145,7 @@ function compileCSS(file){
 function filterFiles(f, stat){
   var filename = getFilenameWithoutExtention(f);
   var extension = getFileExtension(f);
-  if (filename.substr(0,1) == '_' ||
-      filename.substr(0,1) == '.' ||
+  if (filename.substr(0,1) == '.' ||
       filename == '' ||
       allowedExtensions.indexOf(extension) == -1
       )
