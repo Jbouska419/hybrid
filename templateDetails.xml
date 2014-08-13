@@ -17,13 +17,14 @@
 		<folder>html</folder>
 		<folder>_less</folder>
 		<folder>php</folder>
+		<folder>include</folder>
 	</files>
 	<positions>
 		<position>debug</position>
 		<![CDATA[ 
       		<?php 
-			if(file_exists('include/positions.xml')){
-				require_once('include/positions.xml');
+			if(file_exists('include/positions.php')){
+				require_once('include/positions.php');
 			}
 			?>
    		]]>
