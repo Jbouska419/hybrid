@@ -12,6 +12,7 @@
 		<filename>index.php</filename>
 		<filename>README.md</filename>
 		<filename>templateDetails.xml</filename>
+		<filename>.bowerrc</filename>
 		<folder>bower_components</folder>
 		<folder>css</folder>
 		<folder>html</folder>
