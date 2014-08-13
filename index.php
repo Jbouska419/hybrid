@@ -17,8 +17,8 @@ defined('_JEXEC') or die;
 		</head>
 		<body>
 			<?php
-			if(file_exists('include/body.php')){
-  				require_once('include/body.php');
+			if(file_exists($this->baseurl.'/templates/'.$this->template.'/include/body.php')){
+  				require_once($this->baseurl.'/templates/'.$this->template.'/include/body.php');
 			}
 			?>
 		</body>
