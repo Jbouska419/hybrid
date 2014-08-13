@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd"
+[
+<!ENTITY otherFile SYSTEM "include/positions.xml">
+]>
 <extension version="3.1" type="template" client="site">
 	<name>Hybrid</name>
 	<version>1.0</version>
@@ -20,6 +23,6 @@
 	</files>
 	<positions>
 		<position>debug</position>
-		<xi:include href="include/positions.xml" xmlns:xi="http://www.w3.org/2003/XInclude"/>
+		&positions;
 	</positions>
 </extension>
