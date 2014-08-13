@@ -20,6 +20,6 @@
 	</files>
 	<positions>
 		<position>debug</position>
-		<position>menu</position>
+		<xi:include href="include/positions.xml" xmlns:xi="http://www.w3.org/2003/XInclude"/>
 	</positions>
 </extension>

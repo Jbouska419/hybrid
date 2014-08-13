@@ -1,7 +1,5 @@
 <?php 
-defined('_JEXEC') or die; 
-require_once ('php/load.php');
-//$js = new H_javascript();
+defined('_JEXEC') or die;
 ?>
 <!DOCTYPE html>
 	<html lang="en">
@@ -13,16 +11,15 @@ require_once ('php/load.php');
 			<!-- Load Single CSS File -->
 			<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/load.css">
 			<!--[if lt IE 9]>
-				<script src="<?php //$js->load('html5shiv'); ?>"></script>
-				<script src="<?php //$js->load('respond'); ?>"></script>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 			<![endif]-->
 		</head>
 		<body>
-                	<jdoc:include type="modules" name="menu" />
-                	<jdoc:include type="message" />
-					<jdoc:include type="component" />
-                    <!-- Example Usage of Hybrid Javascript Class // Just uncomment to load that library -- complete list of shorthand is in php/H_javascript.php -->
-                    <?php //$js->load('jquery'); ?>
-                    <?php //$js->load('bootstrap'); ?>
+			<?php
+			if(file_exists('include/body.php')){
+  				require_once('include/body.php');
+			}
+			?>
 		</body>
 </html>
