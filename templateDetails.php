@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/xml'); ?>
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.1" type="template" client="site">
@@ -21,12 +22,10 @@
 	</files>
 	<positions>
 		<position>debug</position>
-		<![CDATA[ 
-      		<?php 
+		<?php
 			if(file_exists('include/positions.php')){
-				require_once('include/positions.php');
+  				require_once('include/positions.php');
 			}
-			?>
-   		]]>
+		?>
 	</positions>
 </extension>
