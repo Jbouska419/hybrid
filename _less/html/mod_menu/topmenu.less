@@ -1,0 +1,88 @@
+.topmenu{
+	.navbar;
+	.navbar-default;
+	.navbar-fixed-top;
+	background: rgba(0, 0, 0, 0.3); 
+	min-height: 1px;
+	border: none;
+	.container-fluid{
+		.center-block;
+		width: 95%;
+		.bg-media-manual(padding-top, @1: 1rem, @320: 1rem, @360: 1rem, 
+				@460: 0, @560: 0, @660: 3rem, @770: 0, @960: 0, @1024: 0, 
+				@1170: 5px, @1280: 5px, @1366: 0, @1440: 0, @1660: 0, @1920: 5rem);
+		.bg-media-manual(padding-bottom, @1: 1rem, @320: 1rem, @360: 1rem, 
+				@460: 0, @560: 0, @660: 3rem, @770: 0, @960: 0, @1024: 0, 
+				@1170: 5px, @1280: 5px, @1366: 0, @1440: 0, @1660: 0, @1920: 5rem);
+		.navbar-header{
+			.navbar-header;
+			.navbar-toggle{
+				.navbar-toggle;
+				.icon-bar{
+				}
+			}
+			.navbar-brand{
+				.navbar-brand;
+				.bg-media-manual(font-size, @1: 2rem, @320: 2.5rem, @360: 2.5rem, 
+				@460: 3rem, @560: 3rem, @660: 3.5rem, @770: 3.5rem, @960: 4rem, @1024: 4rem, 
+				@1170: 4.5rem, @1280: 4.5rem, @1366: 5rem, @1440: 5rem, @1660: 6rem, @1920: 8rem);
+				font-family: 'shotgun';
+				color: #FFF;
+			}
+		}
+		.navbar-collapse{
+			.navbar-collapse;
+			background-color: #000;
+			.nav{
+				.nav;
+				.bg-media-manual(width, @1: 75%, @320: 75%, @360: 75%, 
+				@460: 75%, @560: 75%, @660: 75%, @770: 75%, @960: 75%, @1024: 75%, 
+				@1170: 75%, @1280: 75%, @1366: 75%, @1440: 75%, @1660: 75%, @1920: 75%);
+			}
+			.navbar-nav{
+				.navbar-nav;
+				li{
+					padding-top: 0.5rem;
+					.bg-media-manual(width, @1: 100%, @320: 100%, @360: 100%, 
+						@460: 100%, @560: 100%, @660: 25%, @770: 25%, @960: 25%, @1024: 25%, 
+						@1170: 25%, @1280: 25%, @1366: 25%, @1440: 25%, @1660: 25%, @1920: 25%);
+					.bg-media-manual(text-align, @1: left, @320: left, @360: left, 
+						@460: left, @560: left, @660: center, @770: center, @960: center, @1024: center, 
+						@1170: center, @1280: center, @1366: center, @1440: center, @1660: center, @1920: center);
+					a{
+						.bg-media-manual(font-size, @1: 2rem, @320: 2rem, @360: 2rem, 
+						@460: 2.5rem, @560: 2.5rem, @660: 2.5rem, @770: 2rem, @960: 2rem, @1024: 4rem, 
+						@1170: 3rem, @1280: 3rem, @1366: 4rem, @1440: 4rem, @1660: 4rem, @1920: 4rem);
+						color: #e0cb1d;
+						font-family: 'pact';
+					}
+					a:hover{
+						color:#FFF;
+					}
+				}
+			}
+		}
+	}
+}
+
+.topmenu.scrolled {
+    background-color:rgba(0,0,0,0.55);
+	.container-fluid{
+		padding-bottom: 0.75rem;
+		padding-top: 0.75rem;
+		.navbar-header{
+			.navbar-brand{
+				font-size: 5rem;
+			}
+		}
+		.navbar-collapse{
+			.navbar-nav{
+				li{
+					a{
+						font-size: 3rem;
+					}
+				}
+			}
+		}
+	}
+}
