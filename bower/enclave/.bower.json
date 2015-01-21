@@ -1,0 +1,26 @@
+{
+  "name": "enclave",
+  "homepage": "https://github.com/antfuentes87/enclave",
+  "authors": [
+    "antfuentes87 <antfuentes87@gmail.com>"
+  ],
+  "description": "Framework that does not depend on anything",
+  "main": "load.less",
+  "keywords": [
+    "less",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "license": "MIT",
+  "_release": "56880454b3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "56880454b36c2d017ec209a6e05a1a29e4e20fec"
+  },
+  "_source": "git@github.com:antfuentes87/enclave.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:antfuentes87/enclave.git",
+  "_direct": true
+}
